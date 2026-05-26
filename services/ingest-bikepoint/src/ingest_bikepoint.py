@@ -20,7 +20,7 @@ def filter_additional_attributes(raw_additional_attributes: dict, refined_dict: 
 
 def convert_raw_to_refined(raw_data: dict) -> dict:
     refined_data_point = dict()
-    refined_data_point["id"] = raw_data['id']
+    refined_data_point["bikePointId"] = raw_data['id']
     refined_data_point["name"] = raw_data['commonName']
     refined_data_point["lat"] = raw_data["lat"]
     refined_data_point["long"] = raw_data["lon"]
