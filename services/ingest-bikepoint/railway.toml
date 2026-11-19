@@ -1,3 +1,0 @@
-[deploy]
-startCommand = "python publish_data.py"
-cronSchedule = "0 * * * *"

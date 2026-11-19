@@ -1,0 +1,8 @@
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "deploy": {
+    "startCommand": "python -c \"print('BikePoint ingest paused')\"",
+    "cronSchedule": null,
+    "restartPolicyType": "NEVER"
+  }
+}
